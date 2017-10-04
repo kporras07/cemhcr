@@ -9,7 +9,7 @@
             "email": "kporras07@gmail.com"
         }
     ],
-    "type": "library",
+    "type": "package",
     "require": {
         "php": ">=7.0",
         "guzzlehttp/guzzle": "^6.3"
@@ -18,8 +18,6 @@
        "phpunit/phpunit": "5.2.*"
     },
     "autoload": {
-        "psr-4": {
-            "kporras07\\cemhcr\\": "src/"
-        }
+        "psr-4": {"kporras07\\cemhcr\\": "src/"}
     }
 }
